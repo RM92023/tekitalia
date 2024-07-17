@@ -1,0 +1,33 @@
+.partners {
+  padding: 2rem;
+  text-align: center;
+}
+
+.partners-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.partner-card {
+  border: 2px solid #ccc;
+  padding: 1rem;
+  margin: 0.5rem;
+  max-width: 200px;
+  text-align: center;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.partner-card:hover {
+  transform: translateY(-10px);
+}
+
+.partner-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}

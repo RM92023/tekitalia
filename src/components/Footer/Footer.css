@@ -1,0 +1,9 @@
+/* Footer.css */
+
+.footer {
+  background-color: #008C45; /* Verde */
+  color: #ffffff; /* Blanco */
+  padding: 1rem;
+  text-align: center;
+  border-top: 2px solid #ffffff; /* Borde superior blanco */
+}
